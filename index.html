@@ -1,45 +1,183 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yunqi (Richard) Gu 顾云起/顧雲起</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #fdfdfd;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            text-align: center;
-        }
-
-        .container {
-            max-width: 600px;
-        }
-
-        h1 {
-            font-size: 24px;
-            font-weight: normal;
-            color: #333;
-        }
-
-        a {
-            color: #0366d6;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Shengqu Cai</title>
+  
+  <meta name="author" content="Yunqi (Richard) Gu">
+  <meta name=viewport content=“width=800”>
+  
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+      /* Color scheme stolen from Sergey Karayev */
+      a {
+      color: #B83A4B;
+      text-decoration:none;
+      }
+      a:focus, a:hover {
+      color: #f09228;
+      text-decoration:none;
+      }
+      body,td,th,tr,p,a {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      font-style: normal;
+      }
+      strong {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      font-style: normal;
+      }
+      heading {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      font-style: normal;
+      }
+      papertitle {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 15px;
+      font-weight:500;
+      font-style: normal;
+      }
+      name {
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 400;
+      font-size: 32px;
+      font-style: normal;
+      }
+      .one
+      {
+      width: 160px;
+      height: 140px;
+      position: relative;
+      }
+      .two
+      {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+      }
+      .fade {
+       transition: opacity .2s ease-in-out;
+       -moz-transition: opacity .2s ease-in-out;
+       -webkit-transition: opacity .2s ease-in-out;
+      }
+      span.highlight {
+          background-color: #ffffd0;
+      }
     </style>
 </head>
+
 <body>
-    <div class="container">
-        <h1>News</h1>
-        <p><a href="#">Your Link Here</a></p>
-    </div>
+  <table width="1000" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="67%" valign="middle">
+              <p align="center">
+                <name>Yunqi (Richard) Gu 「顾云起/顧雲起」</name>
+              </p>
+              <p> 
+                I'm a CS Undergrad student at <a href="https://www.cs.stanford.edu/">Stanford University</a>,
+              </p>
+              <p style="text-align:center">
+                <a href="yrichard@stanford.edu">Email</a> &nbsp/&nbsp
+                <a href="https://github.com/richard-guyunqi"> Github </a> &nbsp/&nbsp
+                <a href="https://www.linkedin.com/in/richard-gu-643480262/"> Linkedin </a>
+              </p>
+            </td>
+            <td width="33%">
+              <!-- <img style="width:75%;max-width:75%" alt="profile photo" src="images/profile_cropped.jpg"> -->
+                <a href="images/profile_elvis_cropped.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images/profile_elvis_cropped.png" class="hoverZoomLink"></a>
+                <center>
+                  <!-- This is generated with <a href="https://huggingface.co/spaces/InstantX/InstantID">InstantID</a> using a prior-COVID picture of me. Since then I gained nearly 40 pounds and lost my cool<br>;( -->
+                  * This is me prior-COVID. Since then I gained >40 pounds and lost my cool<br>;(
+                </center>
+                
+            </td>
+            </td>
+          </tr>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+          <td>
+            <heading>News</heading>
+            <ul>
+              <li style="margin: 5px;" >
+                <b>2025-02:</b> BlenderGym is accepted to <a href="https://cvpr.thecvf.com/Conferences/2025">CVPR 2025</a>!
+              </li>
+            </ul>
+          </td>
+          </tr>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Publications</heading>
+              <p>
+                * indicates equal contribution
+              </p>
+            </td>
+          </tr>
+        <!-- </table>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td style="padding:20px;width:25%;max-width:25%" align="center">
+              <img style="width:100%;max-width:100%" src="images/dsd.png" alt="dsd">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>BlenderGym: Benchmarking Foundational Model Systems for Graphics Editing</papertitle>
+              <br>
+              <strong>Yunqi Gu</strong>, 
+              <a href="https://ericryanchan.github.io/">Eric Ryan Chan</a>, 
+              <a href="https://cs.stanford.edu/~yzzhang/">Yunzhi Zhang</a>, 
+              <a href="https://geometry.stanford.edu/?member=guibas">Leonidas Guibas</a>, 
+              <a href="https://jiajunwu.com/">Jiajun Wu</a>, 
+              <a href="https://stanford.edu/~gordonwz/">Gordon Wetzstein</a>
+              <br>
+              <em>In <strong>CVPR</strong></em>, 2025
+              <br>
+              <a href="https://primecai.github.io/dsd">[Project Page]</a><a href="https://arxiv.org/abs/2405.17414">[Paper]</a>
+              <br>
+              <p></p>
+              <p> Training-free customized image generation model that scales to any instance and any context. </p>
+            </td>
+          </tr>
+        </table> -->
+
+       
+  
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                <a href="https://jonbarron.info/">Website Template</a>
+              </p>
+            </td>
+          </tr>
+        </tbody></table> -->
+      </td>
+    </tr>
+  </table>
+
+<center>
+<p>
+	<div id="clustrmaps-widget" style="width:5%" align=center>
+    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9Mvq7Pu4wkXily49hvUGewrsSd60dPaBHFgyVvACgo8"></script>
+	</div>
+	<br>
+	  &copy; Shengqu Cai | Last updated: September 25th, 2024 | <a href="https://jonbarron.info/">Website Template</a>
+</p>
+</center>
 </body>
+
 </html>
+
